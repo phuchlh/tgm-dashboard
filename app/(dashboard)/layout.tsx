@@ -10,7 +10,7 @@ import { logoTG } from "@/constants/images";
 
 const navigation = [
     { name: "Dashboard", href: "/dashboard", icon: HomeIcon },
-    { name: "Label", href: "/label", icon: TagIcon },
+    { name: "Labels", href: "/dashboard/labels", icon: TagIcon },
 ];
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
